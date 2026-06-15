@@ -1,0 +1,78 @@
+
+h1 {
+  color: blue;          
+  font-size: 50px;      
+  text-transform: uppercase;
+}
+
+p {
+  color: green;         
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: yellow;
+  color: #333;
+}
+
+
+.navbar {
+  background: #333;
+  padding: 1rem;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #ff6347;
+}
+#home {
+  background: #555;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+#home h1 {
+  margin-bottom: 1rem;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.portfolio-item {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+#footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
